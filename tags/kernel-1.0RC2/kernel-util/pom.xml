@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>kernel</artifactId>
+    <groupId>org.sakaiproject</groupId>
+    <version>1.0RC2</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+  <name>Kernel Implementation Project</name>
+  <groupId>org.sakaiproject.kernel</groupId>
+  <artifactId>util</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+    <module>content</module>
+    <module>log</module>
+    <module>db-storage</module>
+    <module>db-conversion</module>
+    <module>entity</module>
+    <module>event</module>
+    <module>jcr</module>
+    <module>tool</module>
+    <module>user</module>
+    <module>util</module>
+    <module>webapp</module>
+  </modules>
+</project>
